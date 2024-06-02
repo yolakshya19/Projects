@@ -46,7 +46,7 @@
 .home__subtitle::before{
     content: '';
     position: absolute;
-    width: 70px;
+    width: 65px;
     height: 1px;
     background-color: var(--text-color);
     left: 0;
@@ -190,5 +190,35 @@
     .home__hand{
         width: 22px;
         height: 22px;
+    }
+}
+
+/* For very small devices */
+@media screen and (max-width: 270px) {
+    .home__subtitle {
+        font-size: var(--smaller-font-size);
+        /* Adjust font size as needed */
+        padding-left: 2rem;
+        /* Adjust padding as needed */
+    }
+
+    .home__hand {
+        width: 20px;
+        height: 20px;
+        margin-left: 0.2rem;
+    }
+
+    .home__subtitle::before {
+        width: 30px;
+        top: 0.6rem;
+    }
+
+    .home__description {
+        font-size: var(--small-font-size);
+            /* Adjust font size as needed */
+        max-width: 200px;
+            /* Adjust max width as needed */
+        margin-bottom: var(--mb-1-5);
+            /* Adjust margin as needed */
     }
 }
