@@ -10,7 +10,7 @@ const Qualification = () => {
   return (
     <section className="qualification section" id="qualification">
       <h2 className="section__title">Qualification</h2>
-      <span className="section__subtitle">My Personel Journey</span>
+      <span className="section__subtitle">My Personal Journey</span>
 
       <div className="qualification__container container">
         <div className="qualification__tabs">
@@ -49,10 +49,13 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Design</h3>
+                <h3 className="qualification__title">
+                  B-Tech <br /> CSE(DataScience)
+                </h3>
                 <span className="qualification__subtitle">
                   ABES Engineering College
                 </span>
+                <span className="qualification__subtitle">SGPA : 8.0</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> 2021 - Present
                 </div>
@@ -72,48 +75,36 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Art Director</h3>
+                <h3 className="qualification__title">Senior Secondary</h3>
                 <span className="qualification__subtitle">
-                  ABES Engineering College
+                  Sanskar The Co-Educational School
+                </span>
+                <span className="qualification__subtitle">
+                  Percentage : 97.4%
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2020 - 2021
+                  <i className="uil uil-calendar-alt"></i> 2019 - 2021
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Development</h3>
+                <h3 className="qualification__title">Secondary</h3>
                 <span className="qualification__subtitle">
-                  ABES Engineering College
+                  St. Mary's Convent School
+                </span>
+                <span className="qualification__subtitle">
+                  Percentage : 93.0%
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2018 - 2020
+                  <i className="uil uil-calendar-alt"></i> 2005 - 2019
                 </div>
               </div>
 
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-
-              <div>
-                <h3 className="qualification__title">UX Expert</h3>
-                <span className="qualification__subtitle">
-                  ABES Engineering College
-                </span>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2017 - 2018
-                </div>
               </div>
             </div>
           </div>
