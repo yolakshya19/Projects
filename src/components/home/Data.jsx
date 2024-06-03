@@ -57,8 +57,7 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Frontend Developer💻</h3>
       <p className="home__description">
-        I am a third-year CSE student focusing on Data Science 🌱. I'm learning
-        DSA in Java, ReactJS, and exploring Data Science and Generative AI 🤖.
+        Data Science Enthusiast 📊 | Java & React Developer 💻 | AI Explorer 🤖.
       </p>
 
       <a href="#contact" className="button button--flex">
