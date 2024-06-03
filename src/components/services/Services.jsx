@@ -9,15 +9,15 @@ const Services = () => {
   };
   return (
     <section className="services section" id="services">
-      <h2 className="section__title">Services</h2>
-      <span className="section__subtitle">What I Offer</span>
+      <h2 className="section__title">Projects</h2>
+      <span className="section__subtitle">My Projects</span>
 
       <div className="services__container container grid">
         <div className="services__content">
           <div>
-            <i className="uil uil-web-grid services__icon"></i>
+            <i className="uil uil-twitter-alt services__icon"></i>
             <h3 className="services__title">
-              Product <br /> Designer
+              Twitter <br /> Sentiment Analysis
             </h3>
           </div>
 
@@ -39,43 +39,48 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">Product Designer</h3>
+              <h3 className="services__modal-title">
+                Twitter Sentiment Analysis
+              </h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience. Providing qualtiy
-                work to clients and companies.
+                A project to analyze and determine the sentiment (positive,
+                negative, or neutral) of tweets using machine learning
+                techniques.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web Page Development</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I create UX element interactions.
+                    Data Collection: Use Twitter's API to gather tweets.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I position your company brand.
+                    Data Preprocessing: Clean and normalize tweet text.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Design and mockups of products for companies.
+                    Tokenization: Split tweets into individual words.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Feature Extraction: Convert text into numerical features.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Sentiment Analysis: Predict and visualize tweet sentiments.
                   </p>
                 </li>
               </ul>
@@ -85,9 +90,9 @@ const Services = () => {
 
         <div className="services__content">
           <div>
-            <i className="uil uil-arrow services__icon"></i>
+            <i className="uil uil-times-square services__icon"></i>
             <h3 className="services__title">
-              Ui/Ux <br /> Designer
+              Tic <br /> Tac Toe
             </h3>
           </div>
 
@@ -109,43 +114,45 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">Ui/Ux Designer</h3>
+              <h3 className="services__modal-title">Tic Tac Toe</h3>
               <p className="services__modal-description">
-                Servicce with more than 3 years of experience. Providing qualtiy
-                work to clients and companies.
+                A simple Tic-Tac-Toe game implemented using JavaScript.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web Page Development</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I create UX element interactions.
+                    Game Setup: Create a 3x3 grid for the game board.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I position your company brand.
+                    User Interface: Use HTML and CSS to design the game board.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Design and mockups of products for companies.
+                    Player Turns: Alternate turns between two players (X and O).
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Move Validation: Check for valid moves and update the board.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Win Detection: Determine if a player has won or if the game
+                    is a draw.
                   </p>
                 </li>
               </ul>
@@ -155,10 +162,10 @@ const Services = () => {
 
         <div className="services__content">
           <div>
-            <i className="uil uil-edit services__icon"></i>
+            <i className="uil uil-video services__icon"></i>
             <h3 className="services__title">
-              Visual <br />
-              Designer
+              Vid <br />
+              Glow
             </h3>
           </div>
 
@@ -180,43 +187,47 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">Visual Designer</h3>
+              <h3 className="services__modal-title">Vid Glow</h3>
               <p className="services__modal-description">
-                Servicce with more than 3 years of experience. Providing qualtiy
-                work to clients and companies.
+                A video-sharing platform where users can watch and upload
+                videos.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web Page Development</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I create UX element interactions.
+                    User Registration: Allow users to sign up and log in.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I position your company brand.
+                    Video Upload: Enable users to upload videos to the platform.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Design and mockups of products for companies.
+                    Video Playback: Stream uploaded videos for users to watch.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    User Interaction: Implement features like comments, likes,
+                    and shares.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Responsive Design: Ensure the platform works well on various
+                    devices.
                   </p>
                 </li>
               </ul>
