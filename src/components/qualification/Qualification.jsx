@@ -118,12 +118,12 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Product Designer</h3>
+                <h3 className="qualification__title">Graphic Designer</h3>
                 <span className="qualification__subtitle">
-                  ABES Engineering College
+                  ABES Engineering College (Dataverse)
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calender-alt"></i> 2021 - Present
+                  <i className="uil uil-calendar-alt"></i> Jan 2023 - Jan 2024
                 </div>
               </div>
 
@@ -141,24 +141,20 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">UX Designer</h3>
-                <span className="qualification__subtitle">
-                  ABES Engineering College
-                </span>
+                <h3 className="qualification__title">Frontend Development</h3>
+                <span className="qualification__subtitle">Bharat Intern</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2020 - 2021
+                  <i className="uil uil-calendar-alt"></i> Jul 2023 - Aug 2023
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Designer</h3>
-                <span className="qualification__subtitle">
-                  ABES Engineering College
-                </span>
+                <h3 className="qualification__title">Data Entry Operator</h3>
+                <span className="qualification__subtitle">Fiverr</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2018 - 2020
+                  <i className="uil uil-calendar-alt"></i> Jun 2021 - Dec 2021
                 </div>
               </div>
 
