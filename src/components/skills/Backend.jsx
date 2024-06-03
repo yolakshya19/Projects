@@ -3,7 +3,7 @@ import React from 'react'
 const Backend = () => {
   return (
     <div className="skills__content">
-      <h3 className="skills__title">Backend Developer</h3>
+      <h3 className="skills__title">Technical Skills</h3>
 
       <div className="skills__box">
         <div className="skills__group">
@@ -11,8 +11,8 @@ const Backend = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">PHP</h3>
-              <span className="skills__level">Basic</span>
+              <h3 className="skills__name">C</h3>
+              <span className="skills__level">Intermediate</span>
             </div>
           </div>
 
@@ -20,8 +20,8 @@ const Backend = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">NodeJs</h3>
-              <span className="skills__level">Basic</span>
+              <h3 className="skills__name">Java</h3>
+              <span className="skills__level">Intermediate</span>
             </div>
           </div>
 
@@ -40,7 +40,7 @@ const Backend = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">MySQL</h3>
+              <h3 className="skills__name">SQL</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
@@ -49,7 +49,7 @@ const Backend = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">Firebase</h3>
+              <h3 className="skills__name">Data Science</h3>
               <span className="skills__level">Basic</span>
             </div>
           </div>
@@ -58,7 +58,7 @@ const Backend = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">SQL</h3>
+              <h3 className="skills__name">MySQL</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
