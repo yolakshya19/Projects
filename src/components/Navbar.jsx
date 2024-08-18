@@ -44,10 +44,8 @@ NavButton.defaultProps = {
 
 const Navbar = () => {
   const {
-    // activeMenu,
     setActiveMenu,
     isClicked,
-    // setIsClicked,
     handleClick,
     screenSize,
     setScreenSize,
@@ -72,7 +70,7 @@ const Navbar = () => {
     } else {
       setActiveMenu(true);
     }
-  }, [screenSize]);
+  }, [screenSize, setActiveMenu]); // Include setActiveMenu here
 
   return (
     <div className="flex justify-between p-2 md:mx-6 relative">
