@@ -1,10 +1,9 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import { SiShopware } from "react-icons/si";
+import { AiFillAliwangwang } from "react-icons/ai";
 import { MdOutlineCancel } from "react-icons/md";
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
 import { useStateContext } from "../contexts/ContextProvider";
-
 import { links } from "../data/dummy";
 
 const Sidebar = () => {
@@ -33,7 +32,8 @@ const Sidebar = () => {
               onClick={handleCloseSideBar}
               className="items-center gap-3 ml-3 mt-4 flex text-xl font-extrabold tracking-tight dark:text-white text-slate-900"
             >
-              <SiShopware /> <span>DashMaster</span>
+              <AiFillAliwangwang size={27}/>
+              <span>DashMaster</span> {/* Updated icon */}
             </Link>
             <TooltipComponent content="Menu" position="BottomCenter">
               <button

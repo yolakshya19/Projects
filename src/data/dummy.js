@@ -822,29 +822,46 @@ export const medicalproBranding = {
 export const themeColors = [
   {
     name: "blue-theme",
-    color: "#1A97F5",
+    color: "#3498db", // A soothing blue
   },
   {
     name: "green-theme",
-    color: "#03C9D7",
+    color: "#2ecc71", // A vibrant green
   },
   {
     name: "purple-theme",
-    color: "#7352FF",
+    color: "#9b59b6", // A rich purple
   },
   {
     name: "red-theme",
-    color: "#FF5C8E",
+    color: "#e74c3c", // A bold red
   },
   {
     name: "indigo-theme",
-    color: "#1E4DB7",
+    color: "#34495e", // A deep indigo
   },
   {
-    color: "#ca5fe8",
     name: "orange-theme",
+    color: "#e67e22", // A bright orange
+  },
+  {
+    name: "teal-theme",
+    color: "#1abc9c", // A fresh teal
+  },
+  {
+    name: "cyan-theme",
+    color: "#00bcd4", // A lively cyan
+  },
+  {
+    name: "pink-theme",
+    color: "#ff4081", // A vibrant pink
+  },
+  {
+    name: "yellow-theme",
+    color: "#f1c40f", // A warm yellow
   },
 ];
+
 
 export const userProfileData = [
   {
