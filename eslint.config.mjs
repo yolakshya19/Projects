@@ -14,9 +14,10 @@ export default [
     ...pluginJs.configs.recommended,
     ...pluginReact.configs.flat.recommended,
     rules: {
-      "no-unused-vars": "off", // Disable unused-vars rule
-      "no-undef": "off", // Disable no-undef rule
+      "no-unused-vars": "warn", // Set unused-vars to warning
+      "no-undef": "warn", // Set no-undef to warning
+      // Add other rules as needed
     },
-    ignores: ["src/pages/Ecommerce.jsx", "src/pages/Orders.jsx"],
+    ignorePatterns: ["src/pages/Ecommerce.jsx", "src/pages/Orders.jsx"], // Use ignorePatterns to specify files to ignore
   },
 ];
