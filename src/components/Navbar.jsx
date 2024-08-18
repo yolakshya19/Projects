@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import PropTypes from "prop-types"; // Import prop-types
 import { AiOutlineMenu } from "react-icons/ai";
 import { FiShoppingCart } from "react-icons/fi";
 import { BsChatLeft } from "react-icons/bs";
@@ -27,12 +28,26 @@ const NavButton = ({ title, customFunc, icon, color, dotColor }) => (
   </TooltipComponent>
 );
 
+// Define prop types for NavButton
+NavButton.propTypes = {
+  title: PropTypes.string.isRequired,
+  customFunc: PropTypes.func.isRequired,
+  icon: PropTypes.node.isRequired,
+  color: PropTypes.string.isRequired,
+  dotColor: PropTypes.string,
+};
+
+// Default props for NavButton
+NavButton.defaultProps = {
+  dotColor: "transparent",
+};
+
 const Navbar = () => {
   const {
-    activeMenu,
+    // activeMenu,
     setActiveMenu,
     isClicked,
-    setIsClicked,
+    // setIsClicked,
     handleClick,
     screenSize,
     setScreenSize,
@@ -71,7 +86,6 @@ const Navbar = () => {
       <div className="flex">
         <NavButton
           title="Cart"
-          // eslint-disable-next-line no-undef
           customFunc={() => handleClick("cart")}
           color={currentColor}
           icon={<FiShoppingCart />}
@@ -79,7 +93,6 @@ const Navbar = () => {
         <NavButton
           title="Chat"
           dotColor="#03C9D7"
-          // eslint-disable-next-line no-undef
           customFunc={() => handleClick("chat")}
           color={currentColor}
           icon={<BsChatLeft />}
@@ -87,7 +100,6 @@ const Navbar = () => {
         <NavButton
           title="Notifications"
           dotColor="#03C9D7"
-          // eslint-disable-next-line no-undef
           customFunc={() => handleClick("notification")}
           color={currentColor}
           icon={<RiNotification3Line />}
@@ -95,7 +107,6 @@ const Navbar = () => {
         <TooltipComponent content="Profile" position="BottomCenter">
           <div
             className="flex items-center gap-2 cursor-pointer p-1 hover:bg-light-gray rounded-lg"
-            // eslint-disable-next-line no-undef
             onClick={() => handleClick("userProfile")}
           >
             <img src={avatar} alt="" className="rounded-full h-8 w-8" />
